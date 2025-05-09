@@ -38,8 +38,8 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  console.log(`Email: ${formData.email}`);
-  console.log(`Message: ${formData.message}`);
+  console.log(`email: ${formData.email}, message: ${formData.message} `);
+  
 
   
   localStorage.removeItem("feedback-form-state");
