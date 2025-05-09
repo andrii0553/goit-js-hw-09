@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     formData.message = parsedData.message || "";
     emailInput.value = formData.email;
     messageTextarea.value = formData.message;
+
   }
 });
 
@@ -37,7 +38,8 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  console.log("Form Data:", formData);
+  console.log(`Email: ${formData.email}`);
+  console.log(`Message: ${formData.message}`);
 
   
   localStorage.removeItem("feedback-form-state");
