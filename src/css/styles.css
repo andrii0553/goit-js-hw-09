@@ -14,3 +14,89 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 24px;
+} */
+
+.gallery {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+ 
+ 
+}
+
+.gallery-image {
+  max-width: 360px;
+  height: 200px;
+}
+
+.modal {
+  color: tomato;
+}
+
+.feedback-form{
+  display:block;
+  flex-direction: column;
+}
+
+        .feedback-form {
+          max-width: 408px;
+          margin: 24px auto;
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+    
+        .feedback-form label {
+          display: flex;
+          flex-direction: column;
+          font-size: 16px;
+        }
+    
+        .feedback-form input,
+        .feedback-form textarea {
+          padding: 8px;
+          margin-top: 5px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 14px;
+        }
+    
+        .feedback-form textarea {
+          resize: vertical;
+        }
+    
+        .feedback-form button {
+          padding: 8px 16px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.04em;
+          width: 95px;
+          height: 40px;
+        }
+    
+        .feedback-form button:hover {
+          background-color: #0056b3;
+        }
